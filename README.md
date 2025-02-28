@@ -17,9 +17,9 @@ CSS kodları <style></style> taglarının içerisinde yer almaktadır.
   <img src="./photos/sayfa_duzeni.png" width="300"/>
   <img src="./photos/ben_kimim_sayfasi.png" width="300"/>
   <img src="./photos/form_bicimlendirme.png" width="300"/>
-  <img src="./photos/kisisel_website.png" width="300"/>
-
   <img src="./photos/responsive_sayfa_duzeni.png" width="300"/>
+
+  <img src="./photos/kisisel_website.png" width="300"/>
   <img src="./photos/responsive_sayfa_duzeni_1.png" width="300"/>
   
 </div>
