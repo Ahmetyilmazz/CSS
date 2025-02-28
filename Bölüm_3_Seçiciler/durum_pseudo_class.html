@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Seçici</title>
+    <style>
+        a {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+        }
+
+        /* Bağlantı */
+        a:link { 
+            color: blue;
+        }
+        /* Ziyaret Edilmiş Bağlantı */
+        a:visited {
+            color: blueviolet;
+        }
+        /* Fare üzerinde */
+        a:hover {
+            color: cadetblue;
+        }
+        /* Tıklanmış aktif bağlantı */
+        a:active {
+            color: red;
+        }
+        /* id'si kutu olan etiket stili */
+        #kutu {
+            width: 200px;
+            height: 100px;
+            border: darkcyan solid 2px;
+        }
+        /* id'si kutu olan etiketin fare üzerine geldiğindeki stili*/
+        #kutu:hover {
+            background-color: darkgoldenrod;
+            border: green dashed 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#">Ana Sayfa</a>
+    <br>
+    <a href="#">Ben Kimim ?</a>
+    <br>
+    <a href="#">Portfolyo</a>
+    <br>
+    <a href="#">İletişim</a>
+    
+    <div id="kutu">
+
+        kutu
+
+    </div>
+</body>
+</html>

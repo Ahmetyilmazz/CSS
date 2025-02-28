@@ -1,0 +1,33 @@
+#ustmenu {
+    /* background-color: burlywood; */
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+p {
+    color:  darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+
+}
+
+img {
+    margin: auto;
+    padding: auto;
+    width: 500px;
+}

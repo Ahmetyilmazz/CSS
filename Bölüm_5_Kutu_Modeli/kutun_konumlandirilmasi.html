@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutu Konumlandırılması</title>
+    <style>
+        div {
+            border-style: solid;
+            border-width: 5px;
+        }
+
+        #buyuk {
+        width: 300px;
+        height: 200px;
+        background-color: burlywood;
+        border-color: chocolate;
+        
+
+        /* Kutunun konumlandırılması */
+        position: relative;
+        left: 50px;
+        }
+
+        #kucuk {
+
+            width: 150px;
+            height: 50px;
+            background-color: darkgoldenrod;
+            border-color: red;
+            
+            /* Kutunun konumlandırılması */
+            position: relative;
+            top: 30px;
+            left: 50px;
+        }
+
+        #sabit {
+            width: 200px;
+            height: 50px;
+            background-color: orange;
+            border-color: yellow;
+            
+            /* Kutunun konumlandırılması */
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="buyuk">
+        BÜYÜK KUTU
+    </div>
+    <div id="kucuk">
+        KÜÇÜK KUTU  
+    </div>
+    <div id="sabit">
+        SABİT KUTU
+    </div>
+</body>
+</html>

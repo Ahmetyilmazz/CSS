@@ -1,0 +1,51 @@
+
+
+
+h1 {
+    color: red;
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+#ilkParagraf {
+    color: blue;
+    text-align: center;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: red;
+    border-top: 4px;
+
+
+}
+
+p {
+    color: brown;
+    text-align: left;
+    text-transform: initial;
+}
+
+#yazitipi {
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: lowercase;
+    position: static;
+}
+
+p.kirmizi{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    position: initial;
+
+}
+
+
+
+
+

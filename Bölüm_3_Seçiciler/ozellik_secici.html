@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özellik seçici</title>
+    <style>
+        input {
+            background-color: pink;
+        }
+
+        /*input etiketine mouse ile tıklandığında etki eden stil*/
+        input:focus {
+            background-color: powderblue;
+
+        }
+
+        /* type'ı "text" olan input etiketine etki eden stil*/
+        input[type="text"]{
+            background-color: red;
+        }
+        
+        /* type'ı "text" olan input etiketine mouse ile tıklandığında etki eden stil*/
+        input[type="text"]:focus{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        Ad Soyad: <input type="text"> <br>
+        Yaş: <input type="number"> <br>
+        <input type="submit"> <input type="reset">
+    </form>
+    
+</body>
+</html>
