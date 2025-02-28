@@ -1,2 +1,2 @@
 # CSS
-Css_Projects
+CSS kodları <style></style> taglarının içerisinde yer almaktadır.
